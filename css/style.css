@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mainImage {
+  margin: 20px 15px;
+}
+
+#mainImage img {
+  width: 400px;
+  height: 250px;
+}
+
+#thumbnails {
+  display: flex;
+  margin-left: 15px;
+}
+
+.thumbnail {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.current {
+  border-bottom: 2px solid red;
+  margin-bottom: -2px;
+}
